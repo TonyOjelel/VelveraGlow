@@ -585,7 +585,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   height: auto;
   width: 100%;
   display: block;
-  margin-bottom: 1rem;
+  /* margin-bottom: 0.1rem; */
   margin-left: auto; 
   filter: brightness(0) invert(1); 
 }
