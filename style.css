@@ -1,22 +1,3 @@
-/*
-Theme Name: Salone Beauty Salon
-Theme URI: https://templatesjumgle.com/
-Author: Template Jungle
-Author URI: https://templatejumgle.com/
-Description: Alena Miller is specially designed product packaged for Alena Miller by Templates Jumgle.
-Version: 1.1
-*/
-
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-/*------------------------------------------------
-CSS STRUCTURE:
-
-1. VARIABLES
-2. GENERAL TYPOGRAPHY
-
---------------------------------------------------------------*/
 :root,
 [data-bs-theme=light] {
   --heading-font: 'Cormorant Garamond', Georgia, serif;
@@ -581,5 +562,19 @@ body.nav-active .nav__list-item:nth-child(10) {
 
   #billboard figure figcaption {
     position: relative;
+  }
+}
+
+/* Logo Control */
+.logo img {
+  max-width: 200px; /* You can change this value to make logo bigger or smaller */
+  height: auto; /* This maintains the aspect ratio */
+  width: 100%; /* This makes it responsive */
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 150px; /* Smaller size on mobile devices */
   }
 }
